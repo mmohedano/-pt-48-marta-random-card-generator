@@ -1,1 +1,40 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tirada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.carta {
+  background-color: white;
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px;
+}
+.sup-izq {
+  text-align: start;
+  font-size: 20px;
+}
+.inf-der {
+  text-align: end;
+  font-size: 20px;
+}
+.num {
+  text-align: center;
+  font-size: 40px;
+}
+
+button {
+  background-color: gray;
+  border-radius: 5px;
+}
